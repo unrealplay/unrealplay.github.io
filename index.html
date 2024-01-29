@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>_</title>
+    <meta property="og:description" content="💸 actavis 💸" />
+    <meta name="theme-color" content="#6f00ff">
+    <script src="static/js/dick.js"></script>
+    <script src="static/js/spark.js"></script>
+    <link rel="stylesheet" href="static/css/styles.css" />
+    <link href="static/other/diamond.svg" rel="shortcut icon" type="image/x-icon">
+  </head>
+
+  <body>
+    <div class="click-button">
+      <a id="enterButton">[click here]</a>
+    </div>
+
+    <div class="dc-card unselectable">
+      <img src="https://lanyard.cnrad.dev/api/1139759987166560346?bg=00000000&hideTimestamp=true&idleMessage=Probably%20doing%20something%20else...">
+      <audio id="audio" src="https://cdn.discordapp.com/attachments/1162119812818931845/1167209418014867516/deadinside.mp3" loop></audio>
+    </div>
+
+    <script>
+      const enterButton = document.getElementById("enterButton");
+      const mainContent = document.querySelector(".dc-card");
+      const audio = document.getElementById("audio");
+      enterButton.addEventListener("click", () => {
+        enterButton.style.display = "none";
+        mainContent.style.display = "block";
+        setTimeout(() => {
+          mainContent.style.opacity = "1";
+          audio.play();
+        }, 10);
+      });
+    </script>
+  </body>
+</html>
