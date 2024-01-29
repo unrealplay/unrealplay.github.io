@@ -9,4 +9,4 @@ function animateTitle(Title,delay){(Title,delay)
     document.title=newtitle;
   },delay);
 }
-animateTitle('actavis',250,);
+animateTitle('ghoulx',250,);
